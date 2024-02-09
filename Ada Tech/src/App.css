@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(77, 77, 77);
+}
+
+#root {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura total da viewport */
+  flex-wrap: wrap;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin: 2rem 5rem 2rem 5rem;
+}
+
+h1 {
+  color: black;
+  width: 100%; /* Faz com que o título ocupe toda a largura disponível */
+  text-align: center; /* Centraliza o texto do título */
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 300px; /* Define a largura mínima do card */
+}

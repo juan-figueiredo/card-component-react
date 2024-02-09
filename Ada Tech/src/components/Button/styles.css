@@ -1,0 +1,19 @@
+button {
+    border: none;
+    margin: 0;
+    /* padding: .5rem; */
+    width: 6rem;
+    height: 2rem;
+    overflow: visible;
+    background-color: rgb(209, 209, 209);
+    color: black;
+    border-radius: .5rem;
+    color: blue;
+    text-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:last-child {
+    margin-top: auto;
+}
